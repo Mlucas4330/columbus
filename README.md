@@ -38,5 +38,6 @@ Se necessário, instale a versão mais recente a partir de [https://nodejs.org/]
 - Vite
 - Chakra UI (para estilização)
 - Zod (Validação de formulários)
+- React Icons (para ícones)
 - React Router (para rotas)
 - Chart.js & react-chartjs-2 (para gráficos)
