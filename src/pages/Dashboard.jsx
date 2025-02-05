@@ -24,7 +24,7 @@ function Dashboard() {
                     }
                 </Flex>
             </Flex>
-            <Flex flex={1} gap={6} direction={'column'}>
+            <Flex flex={1} gap={6} direction={'column'} overflow={'auto'}>
                 <Flex justify={'space-between'} align={'center'}>
                     <Heading fontWeight={'normal'}>{user?.name || 'NOME USUÁRIO'}</Heading>
                     <Group gap={4}>
@@ -39,7 +39,7 @@ function Dashboard() {
                         </IconButton>
                     </Group>
                 </Flex>
-                <Box flex={1} rounded={'lg'} bgColor={'gray.100'} p={6}>
+                <Box flex={1} overflow={'auto'} rounded={'lg'} bgColor={'gray.100'} p={6}>
                     <Flex mb={8} gap={4}>
                         <Cards />
                         <Chart />

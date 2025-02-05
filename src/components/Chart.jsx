@@ -34,7 +34,7 @@ const data = {
 }
 
 const options = {
-    responsive: true,
+    responsive: false,
     plugins: {
         title: {
             display: true,
@@ -57,9 +57,9 @@ const options = {
 
 const Chart = () => {
     return (
-        <Card.Root>
+        <Card.Root minW={'min-content'}>
             <Card.Body>
-                <Bar data={data} options={options} />
+                <Bar w={'100%'} data={data} options={options} />
             </Card.Body>
         </Card.Root>
     )
