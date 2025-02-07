@@ -46,4 +46,3 @@ Antes de rodar o projeto, certifique-se de ter o Docker instalado e rodando.
 - Zod (Validação de formulários)
 - React Icons (para ícones)
 - React Router (para rotas)
-- Chart.js & react-chartjs-2 (para gráficos)
