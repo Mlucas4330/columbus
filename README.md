@@ -20,7 +20,7 @@ Antes de rodar o projeto, certifique-se de ter o Docker instalado e rodando.
 
 ### 4. Rodar o Docker Compose para Subir os Containers
 
-```docker-compose up --build```
+```docker-compose up -d```
 
 ### 5. Entrar no Container do Backend
 
